@@ -3,4 +3,5 @@
 */
 
 function wait(n) {
+    setTimeout(function () {return new Promise()},n);
 }
